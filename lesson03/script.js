@@ -24,3 +24,8 @@ days_arr['en'] = ['Monday, Tuesday, Wensday, Thursday, Friday'];
 days_arr['ru'] = ['Понедельник, вторник, среда, четверг, пятница'];
 
 console.log(days_arr[lang]);
+
+let namePerson = prompt('Имя');
+
+let result = (namePerson == "Артем" ? "Директор" : namePerson == "Максим" ? "Преподаватель" : "Студент")
+console.log(result);
